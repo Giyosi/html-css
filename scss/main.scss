@@ -1,0 +1,316 @@
+
+$primary: #416ff4;
+
+.shadowa {
+    border-radius: 45px;
+                background: #e0e0e0;
+                box-shadow:  -25px -25px 0px #f5f5f5,
+                    25px 25px 0px #ffff;
+}
+
+.shadowb {
+    box-shadow: 0 10px 40px 0 #00000044;
+    border-radius: 20px;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif !important;
+}
+
+* {
+    
+    box-sizing: border-box !important;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.671);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 5;
+    
+    ul {
+        list-style-type: none;
+        li{
+            font-weight: bold;
+            a {
+                color: black;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+// section-1
+
+section {
+    margin-top: 150px;
+    .first {
+        p {
+            font-size: 19px;
+            color: gray;
+        }
+        .images {
+            .img1 {
+                border-radius: 45px;
+                background: #e0e0e0;
+                box-shadow:  -25px -25px 0px #f5f5f5,
+                    25px 25px 0px #ffff;
+            }
+            .img2 {
+                right: 2%;
+                top: 15%;
+                // box-shadow: 0 10px 40px 0 #00000044;
+                // border-radius: 20px;
+            }
+            .img3 {
+                top: 50%;
+                left: 1%;
+                box-shadow: 0 10px 40px 0 #00000044;
+                border-radius: 20px;
+            }
+            .img4 {
+                top: 60%;
+                right: 5%;
+                box-shadow: 0 10px 40px 0 #00000044;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+// section-2
+
+.second {
+    .container {
+        ul {
+            list-style-type: none;
+            
+            li {
+                
+                img {
+                    height: 70px;
+                    background-color: rgb(94, 170, 241);
+                    padding: 15px;
+                    border-radius: 10px;
+                }
+            }
+        }
+        .images {
+            .img1 { 
+                display: flex;
+                justify-content: center;
+                position: relative;
+
+            }
+            .img2 {
+                position: absolute;
+                top: 45%;
+                left: 55%;
+                z-index: 5;
+            }
+            .img3 {
+                position: absolute;
+                top: 45%;
+                right: 55%;
+            }
+        }
+    }
+}
+
+// section-3
+
+.third {
+    background-color: rgb(17, 17, 58);
+    color: white;
+    text-align: center;
+    p{
+        font-size: 20px;
+        color: gray;
+    }
+    .numb {
+        font-size: 30px;
+        border: 1px solid gray;
+        width: 50px;
+        border-radius: 50%;
+        margin: auto;
+        color: white;
+    }
+    .text {
+        font-size: 16px;
+    }
+}
+
+// section-4
+
+.fourth {
+    p {
+        font-size: 20px;
+        color: gray;
+    }
+    a {
+        text-decoration: none;
+        border-bottom: 2px solid $primary;
+        padding: 10px;
+    }
+    .images {
+        .img1 {
+            position: relative;
+        }
+        .img2 {
+            position: absolute;
+            top: 58%;
+            left: -40%;
+        }
+        .img3 {
+            position: absolute;
+            top: 58%;
+            right: -50%;
+        }
+        .img4 {
+            position: absolute;
+            top: 74%;
+            right: -50%;
+        }
+    }
+}
+
+// section-5
+
+.fifth {
+    p {
+        font-size: 20px;
+        color: gray;
+    }
+    button {
+        background-color: $primary;
+        color: white;
+        &:hover {
+            color: white;
+        }
+    }
+    .list {
+        img {
+            height: 20px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+    .images {
+        .img2 {
+            top: 50%;
+            left: 54%;
+        }
+        .img3 {
+            top: 50%;
+            right: 55%;
+        }
+    }
+}
+
+// section-6
+
+.sixth {
+    background-image: url(https://finestdevs.com/demos/appex/image/landing-2/cta-bg.png);
+    h1 {
+        color: white;
+        margin-top: 180px;
+    }
+    button {
+        border: 0;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    
+    .rasm {
+        img {
+            margin-top: 100px;
+        }
+    }
+}
+
+// section-7
+
+.seventh {
+    margin-bottom: 100px;
+    .man {
+        position: relative;
+        i {
+            position: absolute;
+            top: -25px;
+            right: 100px;
+            padding: 15px 30px;
+            border-radius: 9px;
+            background-color: $primary;
+            color: white;
+            
+        }
+    }
+    .man-text {
+        ul { 
+            list-style-type: none;
+            display: flex;
+            
+            li {
+                color: goldenrod;
+            }
+        }
+        p {
+            font-size: 20px;
+            color: gray;
+        }
+        
+        .david {
+            i {
+                border: 1px solid rgba(0, 0, 0, 0.274);
+                padding: 20px;
+                color: red;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            h5 {
+                color: black;
+            }
+        }
+        .links {
+            button {
+                border: 0;
+                background-color: transparent;
+                border-bottom: 2px solid $primary;
+            }
+        }
+
+        
+    }
+}
+
+.eighth {
+    background-color: rgb(17, 17, 58);
+    padding-top: 100px;
+    padding: 50px 0px;
+
+    input {
+        border: 0;
+        background-color: rgb(4, 4, 49);
+        border-radius: 15px;
+    }
+    button {
+        border: 0;
+        background-color: $primary;
+        border-radius: 15px;
+    }
+    .list {
+        margin-top: 100px;
+        ul {
+            list-style-type: none;
+            li {
+                padding-bottom: 15px;
+                color: gray;
+            }
+        }
+    }
+}
